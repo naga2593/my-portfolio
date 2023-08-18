@@ -5,6 +5,7 @@ import  About from '../About';
 import  Experience from '../Experience';
 import  Contact  from '../Contact';
 import Header from './Header';
+import Footer from './Footer';
 
 
 const Routing = () => {
@@ -18,6 +19,7 @@ const Routing = () => {
         <Route path="/experience" element={<Experience />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
      </Routes>
+     <Footer></Footer>
      </BrowserRouter>
 
 
